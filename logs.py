@@ -3,6 +3,15 @@ import sys
 from flask import Flask 
 from source.logger import logging 
 from source.exception import CustomException
+
+"""
+This file is just for testing the flask app
+Testing exception file
+and exception handling 
+
+"""
+
+
 app = Flask(__name__)
 
 

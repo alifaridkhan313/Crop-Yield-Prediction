@@ -16,6 +16,7 @@ DATA_DIR_KEY = "crop_yield.csv"
 
 ARTIFACT_DIR_KEY = "artifacts"
 
+
 #data ingestion related variable
 DATA_INGESTION_KEY = "data_ingestion"
 DATA_INGESTION_RAW_DATA_DIR = "raw_data_dir"

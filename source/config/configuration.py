@@ -1,7 +1,7 @@
 import os 
 import sys
 
-from source.constraints import *
+from source.constants import *
 
 ROOT_DIR = ROOT_DIR_KEY
 

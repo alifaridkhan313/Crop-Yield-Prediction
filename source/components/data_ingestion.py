@@ -4,8 +4,8 @@ import sys
 import pandas as pd 
 import numpy as np
 
-from source.constraints import *
-from source.config.configuration import *
+from source.constants import *
+from source.config import *
 
 from dataclasses import dataclass
 from source.logger import logging
@@ -21,7 +21,6 @@ class DataIngestionConfig:
     train_data_path:str = TRAIN_FILE_PATH
     test_data_path:str = TEST_FILE_PATH
     raw_data_path:str = RAW_FILE_PATH
-
 
 class DataIngestion:
     def __init__(self):

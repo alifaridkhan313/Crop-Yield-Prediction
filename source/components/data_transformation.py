@@ -4,7 +4,7 @@ import sys
 import numpy as np
 import  pandas as pd
 
-from source.constraints import *
+from source.constants import *
 from source.logger import logging
 from source.exception import CustomException
 from source.utilis import save_obj
@@ -23,8 +23,7 @@ if we have missing values we will be using
 from sklearn.impute import SimpleImputer
 """
 
-# FE
-# Data transformation
+
 
 class Feature_Engineering(BaseEstimator, TransformerMixin):
     def __init__(self):
@@ -65,7 +64,7 @@ class DataTransformationConfig():
     feature_enginnering_object_path = FEATURE_ENGINNERING_OBJECT_FILE_PATH
 
 
-class DataTransformation:
+class DataTransformation():
     def __init__(self):
         self.data_transformation_config = DataTransformationConfig()
 
